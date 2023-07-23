@@ -33,16 +33,14 @@ namespace Library_Manager.Controllers
             {
                 book.IsTaken = !isTaken;
                 _dbContext.SaveChanges();
-                return Ok(); 
+                return Ok();
             }
-            return NotFound(); 
+            return NotFound();
         }
 
-    public IActionResult Privacy()
+        public IActionResult Privacy()
         {
-            List<Book> books = _dbContext.Books.ToList();
-
-            return Ok(books);
+            return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

@@ -1,38 +1,6 @@
-﻿@model IEnumerable<Library_Manager.DTO.Book>
-@{
+﻿@{
     ViewData["Title"] = "Privacy Policy";
 }
 <h1>@ViewData["Title"]</h1>
 
 <p>Use this page to detail your site's privacy policy.</p>
-
-
-<table class="table">
-    <thead class="thead-dark">
-        <tr>
-            <th scope="col">#</th>
-            <th scope="col">Title</th>
-            <th scope="col">Description</th>
-            <th scope="col">Image URL</th>
-            <th scope="col">Rating</th>
-            <th scope="col">Publication Date</th>
-            <th scope="col">Is Taken</th>
-            <th scope="col">Authors</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var book in Model)
-        {
-            <tr>
-                <th scope="row">@book.Id</th>
-                <td>@book.Title</td>
-                <td>@book.Description</td>
-                <td><img src="@book.ImageUrl" alt="@book.Title" width="100" height="150" /></td>
-                <td>@book.Rating</td>
-                <td>@book.PublicationDate</td>
-                <td>@book.IsTaken</td>
-                <td><a class="nav-link text-dark" asp-area="" asp-controller="Library" asp-action="GetAllBooks">Library</a></td>
-            </tr>
-        }
-    </tbody>
-</table>
