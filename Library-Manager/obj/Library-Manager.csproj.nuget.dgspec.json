@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Coding\\C#Workspace\\ASP.NET\\Library-Manager\\Library-Manager\\Library-Manager.csproj": {}
+    "D:\\Lemondo\\LibraryManager\\Library-Manager\\Library-Manager.csproj": {}
   },
   "projects": {
-    "D:\\Coding\\C#Workspace\\ASP.NET\\Library-Manager\\Library-Manager\\Library-Manager.csproj": {
+    "D:\\Lemondo\\LibraryManager\\Library-Manager\\Library-Manager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding\\C#Workspace\\ASP.NET\\Library-Manager\\Library-Manager\\Library-Manager.csproj",
+        "projectUniqueName": "D:\\Lemondo\\LibraryManager\\Library-Manager\\Library-Manager.csproj",
         "projectName": "Library-Manager",
-        "projectPath": "D:\\Coding\\C#Workspace\\ASP.NET\\Library-Manager\\Library-Manager\\Library-Manager.csproj",
+        "projectPath": "D:\\Lemondo\\LibraryManager\\Library-Manager\\Library-Manager.csproj",
         "packagesPath": "C:\\Users\\gio_b\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding\\C#Workspace\\ASP.NET\\Library-Manager\\Library-Manager\\obj\\",
+        "outputPath": "D:\\Lemondo\\LibraryManager\\Library-Manager\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",

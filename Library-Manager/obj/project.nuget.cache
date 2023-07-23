@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cMaEUB6E9ouuGVFyq51LBvfFffb19Qr6RVc4lDYhCean77yu7dHZsRxH95X5g5ED6WAfWEe7PYwhX9FKAw0D6A==",
+  "dgSpecHash": "ImWE1bQE+XvxzXcVP0j3i1Q3Pl4FCLCe33a4abTd1jzksF79PRqeP06XR7vXL/BG7hkrPoBY3E+JJiwne4lE7A==",
   "success": true,
-  "projectFilePath": "D:\\Coding\\C#Workspace\\ASP.NET\\Library-Manager\\Library-Manager\\Library-Manager.csproj",
+  "projectFilePath": "D:\\Lemondo\\LibraryManager\\Library-Manager\\Library-Manager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gio_b\\.nuget\\packages\\bootstrap\\5.3.0\\bootstrap.5.3.0.nupkg.sha512",
     "C:\\Users\\gio_b\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",

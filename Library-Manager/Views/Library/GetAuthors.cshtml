@@ -14,13 +14,13 @@
         </tr>
     </thead>
     <tbody id="authorsTableBody">
-        @foreach (var author in Model.Authors)
+        @foreach (var author in Model.Authors.Select((item, index) => new { Item = item, Index = index + 1 }))
         {
             <tr>
-                <th scope="row">@author.Id</th>
-                <td>@author.FirstName </td>
-                <td>@author.LastName</td>
-                <td>@author.BirthYear</td>
+                <th scope="row">@author.Index</th>
+                <td>@author.Item.FirstName </td>
+                <td>@author.Item.LastName</td>
+                <td>@author.Item.BirthYear</td>
             </tr>
         }
     </tbody>

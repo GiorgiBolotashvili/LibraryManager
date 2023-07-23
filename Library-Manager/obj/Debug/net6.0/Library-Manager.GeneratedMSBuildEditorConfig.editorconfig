@@ -9,85 +9,85 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Library_Manager
 build_property.RootNamespace = Library_Manager
-build_property.ProjectDir = D:\Coding\C#Workspace\ASP.NET\Library-Manager\Library-Manager\
+build_property.ProjectDir = D:\Lemondo\LibraryManager\Library-Manager\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Coding\C#Workspace\ASP.NET\Library-Manager\Library-Manager
+build_property.MSBuildProjectDirectory = D:\Lemondo\LibraryManager\Library-Manager
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Coding/C\#Workspace/ASP.NET/Library-Manager/Library-Manager/Views/Home/Index.cshtml]
+[D:/Lemondo/LibraryManager/Library-Manager/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Coding/C\#Workspace/ASP.NET/Library-Manager/Library-Manager/Views/Home/Privacy.cshtml]
+[D:/Lemondo/LibraryManager/Library-Manager/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Coding/C\#Workspace/ASP.NET/Library-Manager/Library-Manager/Views/Library/AddBook.cshtml]
+[D:/Lemondo/LibraryManager/Library-Manager/Views/Library/AddBook.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeVxBZGRCb29rLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Coding/C\#Workspace/ASP.NET/Library-Manager/Library-Manager/Views/Library/CreateAuthor.cshtml]
+[D:/Lemondo/LibraryManager/Library-Manager/Views/Library/CreateAuthor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeVxDcmVhdGVBdXRob3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Coding/C\#Workspace/ASP.NET/Library-Manager/Library-Manager/Views/Library/CreateBook.cshtml]
+[D:/Lemondo/LibraryManager/Library-Manager/Views/Library/CreateBook.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeVxDcmVhdGVCb29rLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Coding/C\#Workspace/ASP.NET/Library-Manager/Library-Manager/Views/Library/DeleteAuthor.cshtml]
+[D:/Lemondo/LibraryManager/Library-Manager/Views/Library/DeleteAuthor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeVxEZWxldGVBdXRob3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Coding/C\#Workspace/ASP.NET/Library-Manager/Library-Manager/Views/Library/DeleteBook.cshtml]
+[D:/Lemondo/LibraryManager/Library-Manager/Views/Library/DeleteBook.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeVxEZWxldGVCb29rLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Coding/C\#Workspace/ASP.NET/Library-Manager/Library-Manager/Views/Library/EditAuthor.cshtml]
+[D:/Lemondo/LibraryManager/Library-Manager/Views/Library/EditAuthor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeVxFZGl0QXV0aG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Coding/C\#Workspace/ASP.NET/Library-Manager/Library-Manager/Views/Library/EditBook.cshtml]
+[D:/Lemondo/LibraryManager/Library-Manager/Views/Library/EditBook.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeVxFZGl0Qm9vay5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Coding/C\#Workspace/ASP.NET/Library-Manager/Library-Manager/Views/Library/GetAllAuthors.cshtml]
+[D:/Lemondo/LibraryManager/Library-Manager/Views/Library/GetAllAuthors.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeVxHZXRBbGxBdXRob3JzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Coding/C\#Workspace/ASP.NET/Library-Manager/Library-Manager/Views/Library/GetAllBooks.cshtml]
+[D:/Lemondo/LibraryManager/Library-Manager/Views/Library/GetAllBooks.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeVxHZXRBbGxCb29rcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Coding/C\#Workspace/ASP.NET/Library-Manager/Library-Manager/Views/Library/GetAuthors.cshtml]
+[D:/Lemondo/LibraryManager/Library-Manager/Views/Library/GetAuthors.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeVxHZXRBdXRob3JzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Coding/C\#Workspace/ASP.NET/Library-Manager/Library-Manager/Views/Library/GetBookDetails.cshtml]
+[D:/Lemondo/LibraryManager/Library-Manager/Views/Library/GetBookDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeVxHZXRCb29rRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Coding/C\#Workspace/ASP.NET/Library-Manager/Library-Manager/Views/Library/_AuthorsTable.cshtml]
+[D:/Lemondo/LibraryManager/Library-Manager/Views/Library/_AuthorsTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeVxfQXV0aG9yc1RhYmxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Coding/C\#Workspace/ASP.NET/Library-Manager/Library-Manager/Views/Shared/Error.cshtml]
+[D:/Lemondo/LibraryManager/Library-Manager/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Coding/C\#Workspace/ASP.NET/Library-Manager/Library-Manager/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Lemondo/LibraryManager/Library-Manager/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Coding/C\#Workspace/ASP.NET/Library-Manager/Library-Manager/Views/_ViewImports.cshtml]
+[D:/Lemondo/LibraryManager/Library-Manager/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Coding/C\#Workspace/ASP.NET/Library-Manager/Library-Manager/Views/_ViewStart.cshtml]
+[D:/Lemondo/LibraryManager/Library-Manager/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Coding/C\#Workspace/ASP.NET/Library-Manager/Library-Manager/Views/Shared/_Layout.cshtml]
+[D:/Lemondo/LibraryManager/Library-Manager/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-05rv7z2jsz
