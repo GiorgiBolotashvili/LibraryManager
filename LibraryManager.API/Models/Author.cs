@@ -6,6 +6,5 @@
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public int BirthYear { get; set; }
-        public List<BookAuthor> BookAuthors { get; set; }
     }
 }

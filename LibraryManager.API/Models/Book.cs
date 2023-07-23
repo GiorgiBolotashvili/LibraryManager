@@ -9,6 +9,5 @@
         public double Rating { get; set; }
         public DateTime PublicationDate { get; set; }
         public bool IsTaken { get; set; }
-        public List<BookAuthor> BookAuthors { get; set; }
     }
 }
