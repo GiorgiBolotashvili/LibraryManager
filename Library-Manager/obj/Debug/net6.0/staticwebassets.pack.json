@@ -189,6 +189,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Lemondo\\LibraryManager\\Library-Manager\\wwwroot\\images\\Maisie Williams.jpg",
+      "PackagePath": "staticwebassets\\images\\Maisie Williams.jpg"
+    },
+    {
       "Id": "D:\\Lemondo\\LibraryManager\\Library-Manager\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

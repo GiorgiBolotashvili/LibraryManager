@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hOT2VAILfpKzSZzisxyCID8dkRvu1M87xACoBQA8+ik=",
+  "Hash": "Lztv2dmT6QISM+Z8jpuHnFoobgONRBTm1bsUaS32VGo=",
   "Source": "Library-Manager",
   "BasePath": "_content/Library-Manager",
   "Mode": "Default",
@@ -831,6 +831,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Lemondo\\LibraryManager\\Library-Manager\\wwwroot\\images\\Maisie Williams.jpg",
+      "SourceId": "Library-Manager",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Lemondo\\LibraryManager\\Library-Manager\\wwwroot\\",
+      "BasePath": "_content/Library-Manager",
+      "RelativePath": "images/Maisie Williams.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Maisie Williams.jpg"
     },
     {
       "Identity": "D:\\Lemondo\\LibraryManager\\Library-Manager\\wwwroot\\js\\site.js",
