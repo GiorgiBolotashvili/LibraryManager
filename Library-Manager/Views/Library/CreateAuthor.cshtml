@@ -1,0 +1,23 @@
+﻿@model Library_Manager.DTO.Author
+
+<h2>Create New Author</h2>
+
+
+<h4>Add New Author</h4>
+<form asp-action="CreateAuthor" asp-route-bookId="@ViewBag.BookId" method="post">
+    <div class="form-group">
+        <label for="FirstName">First Name</label>
+        <input asp-for="FirstName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="LastName">Last Name</label>
+        <input asp-for="LastName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="BirthYear">Birth Year</label>
+        <input asp-for="BirthYear" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
+
+<a asp-controller="Library" asp-action="GetAuthors" asp-route-bookId="@ViewBag.BookId">Back to List Authors</a>

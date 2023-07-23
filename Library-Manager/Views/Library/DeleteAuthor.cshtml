@@ -1,0 +1,17 @@
+﻿@model Library_Manager.DTO.Author
+
+@{
+    ViewData["Title"] = "Delete Author - " + Model.FirstName + " " + Model.LastName;
+}
+
+<h2>Delete Author - @Model.FirstName @Model.LastName</h2>
+
+<div class="alert alert-danger">
+    <p>Are you sure you want to delete this Author?</p>
+    <h4>@Model.FirstName @Model.LastName</h4>
+    <form asp-controller="Library" asp-action="DeleteAuthorConfirmed" method="post">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger">Delete</button>
+        <a asp-controller="Library" asp-action="GetAllAuthors" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>

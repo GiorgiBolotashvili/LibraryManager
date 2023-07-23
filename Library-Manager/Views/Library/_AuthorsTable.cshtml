@@ -1,0 +1,11 @@
+﻿@model List<Library_Manager.DTO.Author>
+
+@foreach (var author in Model)
+{
+    <tr>
+        <th scope="row">@author.Id</th>
+        <td>@author.FirstName</td>
+        <td>@author.LastName</td>
+        <td>@author.BirthYear</td>
+    </tr>
+}

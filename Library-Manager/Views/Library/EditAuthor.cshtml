@@ -1,0 +1,20 @@
+﻿@model Library_Manager.DTO.Author
+
+<h1>Edit Book</h1>
+
+<form asp-action="EditAuthor" asp-route-id="@Model.Id" method="post">
+    <div>
+        <label>First Name:</label>
+        <input asp-for="FirstName" />
+    </div>
+    <div>
+        <label>Last Name:</label>
+        <input asp-for="LastName" />
+    </div>
+    <div>
+        <label>Birth Year</label>
+        <input asp-for="BirthYear" />
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-controller="Library" asp-action="GetAllAuthors" class="btn btn-secondary">Cancel</a>
+</form>

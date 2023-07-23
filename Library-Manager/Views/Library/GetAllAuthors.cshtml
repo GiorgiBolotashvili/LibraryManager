@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Library_Manager.DTO.Author>
+
+<h1>All Authors</h1>
+
+<body>
+    <div class="mb-3">
+        <input type="text" id="searchInput" class="form-control d-inline-block ml-3" placeholder="Search by FirstName">
+    </div>
+
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">FirstName</th>
+                <th scope="col">LastName</th>
+                <th scope="col">BirthYear</th>
+                <th scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var author in Model.Select((item, index) => new { Item = item, Index = index + 1 }))
+            {
+                <tr>
+                    <th scope="row">@author.Index</th>
+                    <td>@author.Item.FirstName</td>
+                    <td>@author.Item.LastName</td>
+                    <td>@author.Item.BirthYear</td>
+                    <td>
+                        <a class="btn btn-primary btn-sm" asp-area="" asp-controller="Library" asp-action="EditAuthor" asp-route-id="@author.Item.Id">Edit</a>
+                        <a class="btn btn-danger btn-sm" asp-area="" asp-controller="Library" asp-action="DeleteAuthor" asp-route-id="@author.Item.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $("#searchInput").on("keyup", function () {
+                var searchText = $(this).val().toLowerCase();
+                $("tbody tr").filter(function () {
+                    var firstName = $(this).find("td:eq(0)").text().toLowerCase(); 
+                    $(this).toggle(firstName.indexOf(searchText) > -1);
+                });
+            });
+        });
+    </script>
+}

@@ -1,0 +1,31 @@
+﻿@model Library_Manager.DTO.Book
+
+<h1>Add Book</h1>
+
+<form asp-action="AddBook" method="post">
+    <div>
+        <label>Title:</label>
+        <input asp-for="Title" />
+    </div>
+    <div>
+        <label>Description:</label>
+        <input asp-for="Description" />
+    </div>
+    <div>
+        <label>Image URL:</label>
+        <input asp-for="ImageUrl" />
+    </div>
+    <div>
+        <label>Rating:</label>
+        <input asp-for="Rating" />
+    </div>
+    <div>
+        <label>Publication Date:</label>
+        <input asp-for="PublicationDate" />
+    </div>
+    <div>
+        <label>Is Taken:</label>
+        <input asp-for="IsTaken" />
+    </div>
+    <input type="submit" value="Add" />
+</form>

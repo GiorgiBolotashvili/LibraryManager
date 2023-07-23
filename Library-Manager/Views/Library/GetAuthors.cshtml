@@ -1,0 +1,34 @@
+﻿@model Library_Manager.ViewModels.BookAuthorsViewModel
+
+<h2>Authors for Book @Model.Title</h2>
+
+
+
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">FirstName</th>
+            <th scope="col">LastName</th>
+            <th scope="col">BirthYear</th>
+        </tr>
+    </thead>
+    <tbody id="authorsTableBody">
+        @foreach (var author in Model.Authors)
+        {
+            <tr>
+                <th scope="row">@author.Id</th>
+                <td>@author.FirstName </td>
+                <td>@author.LastName</td>
+                <td>@author.BirthYear</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="mb-3">
+    <a href="@Url.Action("CreateAuthor", "Library", new { bookId = Model.BookId })" class="btn btn-primary">Add Author for @Model.Title</a>
+</div>
+
+<a asp-controller="Library" asp-action="GetAllBooks">Back to List All Books</a>
+

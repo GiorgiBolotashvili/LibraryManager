@@ -1,0 +1,38 @@
+﻿@model Library_Manager.DTO.Book
+
+@{
+    Layout = "_Layout";
+}
+
+<h2>Create New Book</h2>
+
+<form asp-action="AddBook" method="post">
+    <div class="form-group">
+        <label>Title</label>
+        <input asp-for="Title" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Description</label>
+        <input asp-for="Description" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Image URL</label>
+        <input asp-for="ImageUrl" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Image</label>
+        <input type="file" asp-for="ImageFile" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Rating</label>
+        <input asp-for="Rating" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Publication Date</label>
+        <input asp-for="PublicationDate" class="form-control" />
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Create</button>
+    <a asp-controller="Library" asp-action="GetAllBooks" class="btn btn-secondary">Cancel</a>
+</form>

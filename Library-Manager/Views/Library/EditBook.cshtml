@@ -1,0 +1,32 @@
+﻿@model Library_Manager.DTO.Book
+
+<h1>Edit Book</h1>
+
+<form asp-action="EditBook" asp-route-id="@Model.Id" method="post">
+    <div>
+        <label>Title:</label>
+        <input asp-for="Title" />
+    </div>
+    <div>
+        <label>Description:</label>
+        <input asp-for="Description" />
+    </div>
+    <div>
+        <label>Image URL:</label>
+        <input asp-for="ImageUrl" />
+    </div>
+    <div>
+        <label>Rating:</label>
+        <input asp-for="Rating" />
+    </div>
+    <div>
+        <label>Publication Date:</label>
+        <input asp-for="PublicationDate" />
+    </div>
+    <div>
+        <label>Is Taken:</label>
+        <input asp-for="IsTaken" />
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-controller="Library" asp-action="GetAllBooks" class="btn btn-secondary">Cancel</a>
+</form>
